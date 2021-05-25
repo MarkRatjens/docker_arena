@@ -1,9 +1,15 @@
 {
   "about": {
-    "title": "Engines Arena",
-    "explanation": "Original blueprint for bootstrapping a Spaces arena"
+    "title": "Engines Docker Arena",
+    "explanation": "Docker blueprint for bootstrapping a Spaces arena"
 	},
   "bindings": [
+    {
+      "identifier": "runtime",
+      "target": {
+        "repository": "https://github.com/v2Blueprints/docker.git"
+      }
+    },
     {
       "identifier": "dns",
       "target": {
@@ -11,9 +17,9 @@
       }
     },
     {
-      "identifier": "containing",
+      "identifier": "packing",
       "target": {
-        "repository": "https://github.com/v2Blueprints/lxd.git"
+        "repository": "https://github.com/v2Blueprints/docker.git"
       }
     }
   ]
