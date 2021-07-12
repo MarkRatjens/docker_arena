@@ -17,6 +17,12 @@
       }
     },
     {
+      "identifier": "wap",
+      "target": {
+        "repository": "https://github.com/v2Blueprints/wap.git"
+      }
+    },
+    {
       "identifier": "packing",
       "target": {
         "repository": "https://github.com/v2Blueprints/docker.git"
