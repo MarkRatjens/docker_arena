@@ -1,0 +1,14 @@
+{
+"volumes": [
+    {
+      "type": "bind",
+      "destination": "/var/log",
+      "source": "/var/lib/engines/logs/^^identifier^^"
+    },
+    {
+      "type": "bind",
+      "destination": "/var/run/status",
+      "source": "/var/lib/engines/status/^^identifier^^"
+    }
+    ]
+}
